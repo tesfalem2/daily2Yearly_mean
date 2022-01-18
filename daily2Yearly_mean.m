@@ -1,6 +1,6 @@
 function [Pyearly] = daily2Yearly_mean(P)
 % this is a more robust code to convert daily to yearly aggregate by
-% accounting lip year variation. It is designed for 1995-2007
+% accounting lip year variation. It is designed for 1983-2017
 P=rand(12786,1);
 
 StartDate = datenum(1983,01,01);
